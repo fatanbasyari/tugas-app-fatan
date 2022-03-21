@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family:sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+.kotak1{
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul{
+    color:antiquewhite;
+}
+
+.inputan{
+    padding: 10px;
+    width: 250px;
+    border: 0px;
+    border-radius: 30px;
+}
+
+.tombol{
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color:chartreuse;
+    color:antiquewhite;
+    font-size: 15px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.tombol{
+    opacity: 0.5;
+    transform: scale(1.07);
+    cursor: pointer;
+}
